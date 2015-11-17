@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Have Fun</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Log in</string>
+    <string name="logon">Sign up</string>
+    <string name="BIO">BIO</string>
+    <string name="hometown">Hometown</string>
+    <string name="birthday">Birthday</string>
+    <string name="name">Name</string>
+    <string name="submit">Submit</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="favorite">favorite</string>
+    <string name="unfavorite">un-favorite</string>
+    <string name="Profile">Edit Profile</string>
+    <string name="userlist">User List</string>
+    <string name="favoritelist">Favorite List</string>
+    <string name="browse">Browse Feed</string>
+    <string name="post">Post News</string>
+    <string name="logout">Log Out</string>
+    <string name="post_edit">Wanna post something?</string>
+    <string name="delete">Delete</string>
+    <string name="mypost">My Post</string>
+</resources>

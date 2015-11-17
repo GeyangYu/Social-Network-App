@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context="csc296.project02.UserViewFragment">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:ems="10"
+        android:id="@+id/text_name"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/birthday"
+        android:ems="10"
+        android:id="@+id/text_bd"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/text_name"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hometown"
+        android:ems="10"
+        android:id="@+id/text_ht"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/text_bd"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="@string/BIO"
+        android:id="@+id/text_bio"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/text_ht"
+        android:layout_centerHorizontal="true" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView_each"
+        android:src="@drawable/head"
+        android:layout_below="@+id/text_bio"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/favorite"
+        android:onClick="favorite"
+        android:id="@+id/button_favorite"
+        android:layout_below="@+id/imageButton_favorite"
+        android:layout_alignEnd="@+id/button_unfavorite" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/unfavorite"
+        android:onClick="unfavorite"
+        android:id="@+id/button_unfavorite"
+        android:layout_below="@+id/button_favorite"
+        android:layout_toEndOf="@+id/text_ht" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/star"
+        android:id="@+id/imageButton_favorite"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/text_name"
+        android:layout_alignEnd="@+id/button_favorite" />
+
+
+</RelativeLayout>
